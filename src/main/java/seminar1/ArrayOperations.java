@@ -10,10 +10,10 @@ public class ArrayOperations {
      * @param A - массив Integer[]
      * @param B - массив Integer[]
      */
-    private static void checkArray(Integer[] A, Integer[] B) throws IllegalArgumentException {
+    private static void checkArray(Integer[] A, Integer[] B) throws RuntimeException {
         //
         if (A == null || B == null) {
-            throw new IllegalArgumentException("один из массивов null");
+            throw new RuntimeException("один из массивов null");
         }
         // Проверяем допустимую длину массива
         if (A.length == 0 || B.length == 0) {
