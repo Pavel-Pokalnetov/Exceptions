@@ -1,4 +1,4 @@
-package seminar3;
+package seminar3.appPacket;
 
 /**
  * @param lastName    Фамилия пользователя

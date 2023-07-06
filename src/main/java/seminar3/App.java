@@ -1,10 +1,12 @@
 package seminar3;
 
+import seminar3.appPacket.UserData;
+import seminar3.appPacket.UserData_IO;
+import seminar3.appPacket.UserInput;
 import seminar3.exception.InterruptApp;
 import seminar3.exception.InvalidUserDataException;
 
 import java.io.IOException;
-import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) {

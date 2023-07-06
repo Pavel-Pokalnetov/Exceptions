@@ -1,7 +1,8 @@
-package seminar3;
+package seminar3.appPacket;
+
+import seminar3.appPacket.UserData;
 
 import java.io.*;
-import java.time.format.DateTimeFormatter;
 
 
 public class UserData_IO {
