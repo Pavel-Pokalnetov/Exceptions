@@ -1,7 +1,5 @@
 package seminar3.appPacket;
 
-import seminar3.appPacket.ConsoleInput;
-import seminar3.appPacket.UserData;
 import seminar3.exception.InterruptApp;
 import seminar3.exception.InvalidUserDataException;
 
